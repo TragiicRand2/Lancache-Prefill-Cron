@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   lancache-prefill-cron:
-    image: ghcr.io/yimura/lancache-prefill-cron:latest
+    image: ghcr.io/TragiicRand2/lancache-prefill-cron:latest
     restart: unless-stopped
     volumes:
-      - /home/docker/.config/SteamPrefill:/Config
+      - /volume1/docker/SteamPrefill:/Config
